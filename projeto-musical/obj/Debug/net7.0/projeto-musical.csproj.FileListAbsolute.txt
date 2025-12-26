@@ -1,0 +1,14 @@
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\bin\Debug\net7.0\projeto-musical.exe
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\bin\Debug\net7.0\projeto-musical.deps.json
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\bin\Debug\net7.0\projeto-musical.runtimeconfig.json
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\bin\Debug\net7.0\projeto-musical.dll
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\bin\Debug\net7.0\projeto-musical.pdb
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\projeto-musical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\projeto-musical.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\projeto-musical.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\projeto-musical.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\projeto-musical.dll
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\refint\projeto-musical.dll
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\projeto-musical.pdb
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\projeto-musical.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documents\estudos-csharp\projeto-musical\obj\Debug\net7.0\ref\projeto-musical.dll
