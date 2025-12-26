@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\marco\\OneDrive\\Documents\\estudos-csharp\\PrimeiroProjeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26761301-85AB-407A-80B9-134D17FD5B11}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\marco\\onedrive\\documents\\estudos-csharp\\primeiroprojeto\\primeiroprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26761301-85AB-407A-80B9-134D17FD5B11}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{659222C6-5CA3-4682-FA6D-7CCD0FD33B1D}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\marco\\onedrive\\documents\\estudos-csharp\\primeiroprojeto\\primeiroprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659222C6-5CA3-4682-FA6D-7CCD0FD33B1D}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,10 +28,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T16:24:24.616Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
