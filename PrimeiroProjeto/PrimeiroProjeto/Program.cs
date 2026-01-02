@@ -13,6 +13,7 @@ void ShowWelcomeMessage()
 
 void ShowMenuOptions()
 {
+    ShowWelcomeMessage();
     Console.WriteLine("Welcome to Screen Sound!");
 
     Console.WriteLine("\nEnter (1) => for register a band");
@@ -27,7 +28,7 @@ void ShowMenuOptions()
 
     switch (optionChosenInt)
     {
-        case 1: Console.WriteLine("You selected option " + optionChosenInt);
+        case 1: RegisterBand();
             break;
         case 2: Console.WriteLine("You selected option " + optionChosenInt);
             break;
@@ -35,12 +36,23 @@ void ShowMenuOptions()
             break;
         case 4: Console.WriteLine("You selected option " + optionChosenInt);
             break;
-        case -1: Console.WriteLine("Goodbay! :(");
+        case -1: Console.WriteLine("Goodbay! :)");
             break;
         default: Console.WriteLine("Invalid option selected.");
             break;
     }
 }
 
-ShowWelcomeMessage();
+void RegisterBand()
+{
+    Console.Clear();
+    Console.WriteLine("*** Register a Band ***");
+    Console.Write("Enter the name of the band you want to register: ");
+    string bandName = Console.ReadLine()!;
+    Console.WriteLine($"The band {bandName} was registered successfully!");
+    Thread.Sleep(5000);
+    Console.Clear();
+    ShowMenuOptions();
+}
+
 ShowMenuOptions();
