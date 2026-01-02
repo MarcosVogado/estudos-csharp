@@ -25,9 +25,20 @@ void ShowMenuOptions()
     string optionChosen = Console.ReadLine()!;
     int optionChosenInt = int.Parse(optionChosen);
 
-    if (optionChosenInt == 1)
+    switch (optionChosenInt)
     {
-        Console.WriteLine("You selected option " + optionChosenInt);
+        case 1: Console.WriteLine("You selected option " + optionChosenInt);
+            break;
+        case 2: Console.WriteLine("You selected option " + optionChosenInt);
+            break;
+        case 3: Console.WriteLine("You selected option " + optionChosenInt);
+            break;
+        case 4: Console.WriteLine("You selected option " + optionChosenInt);
+            break;
+        case -1: Console.WriteLine("Goodbay! :(");
+            break;
+        default: Console.WriteLine("Invalid option selected.");
+            break;
     }
 }
 
