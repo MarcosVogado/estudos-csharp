@@ -1,5 +1,6 @@
 ﻿// Screen Sound
 string WelcomeMenssage = "Welcome to Screen Sound!";
+List<string> bandsList = new List<string> { "The Beatles", "Metalica"};
 void ShowWelcomeMessage()
 {
     Console.WriteLine(@"
@@ -31,7 +32,7 @@ void ShowMenuOptions()
     {
         case 1: RegisterBand();
             break;
-        case 2: Console.WriteLine("You selected option " + optionChosenInt);
+        case 2: ShowRegisteredBands();
             break;
         case 3: Console.WriteLine("You selected option " + optionChosenInt);
             break;
@@ -47,13 +48,33 @@ void ShowMenuOptions()
 void RegisterBand()
 {
     Console.Clear();
+    Console.WriteLine(" ******************");
+    Console.WriteLine("  Register a Band");
+    Console.WriteLine(" ******************\n");
 
-    Console.WriteLine("*** Register a Band ***");
     Console.Write("Enter the name of the band you want to register: ");
     string bandName = Console.ReadLine()!;
-    Console.WriteLine($"The band {bandName} was registered successfully!");
+    bandsList.Add(bandName);
 
+    Console.WriteLine($"The band {bandName} was registered successfully!");
     Thread.Sleep(2000);
+    Console.Clear();
+    ShowMenuOptions();
+}
+
+void ShowRegisteredBands()
+{
+    Console.Clear();
+    Console.WriteLine(" **************************");
+    Console.WriteLine("  Showing registered bands");
+    Console.WriteLine(" **************************\n");
+
+    for (int i = 0; i < bandsList.Count; i++)
+    {
+        Console.WriteLine($"Band: {bandsList[i]}");
+    }
+    Console.WriteLine("\nEnter any key for return to menu");
+    Console.ReadKey();
     Console.Clear();
     ShowMenuOptions();
 }
