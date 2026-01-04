@@ -1,4 +1,5 @@
 ﻿// Screen Sound
+string WelcomeMenssage = "Welcome to Screen Sound!";
 void ShowWelcomeMessage()
 {
     Console.WriteLine(@"
@@ -14,7 +15,7 @@ void ShowWelcomeMessage()
 void ShowMenuOptions()
 {
     ShowWelcomeMessage();
-    Console.WriteLine("Welcome to Screen Sound!");
+    Console.WriteLine(WelcomeMenssage);
 
     Console.WriteLine("\nEnter (1) => for register a band");
     Console.WriteLine("Enter (2) => for show all bands");
@@ -46,11 +47,13 @@ void ShowMenuOptions()
 void RegisterBand()
 {
     Console.Clear();
+
     Console.WriteLine("*** Register a Band ***");
     Console.Write("Enter the name of the band you want to register: ");
     string bandName = Console.ReadLine()!;
     Console.WriteLine($"The band {bandName} was registered successfully!");
-    Thread.Sleep(5000);
+
+    Thread.Sleep(2000);
     Console.Clear();
     ShowMenuOptions();
 }
