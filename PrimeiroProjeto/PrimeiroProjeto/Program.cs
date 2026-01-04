@@ -73,6 +73,7 @@ void ShowRegisteredBands()
     {
         Console.WriteLine($"Band: {bandsList[i]}");
     }
+
     Console.WriteLine("\nEnter any key for return to menu");
     Console.ReadKey();
     Console.Clear();
