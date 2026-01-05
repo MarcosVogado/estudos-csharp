@@ -1,4 +1,4 @@
-﻿// Screen Sound
+﻿// Screen Sound Project - Band Registration System
 string WelcomeMenssage = "Welcome to Screen Sound!";
 List<string> bandsList = new List<string> { "The Beatles", "Metalica"};
 void ShowWelcomeMessage()
