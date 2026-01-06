@@ -1,17 +1,6 @@
 ﻿// Screen Sound Project - Band Registration System
 string WelcomeMenssage = "Welcome to Screen Sound!";
 List<string> bandsList = new List<string> { "The Beatles", "Metalica"};
-void ShowWelcomeMessage()
-{
-    Console.WriteLine(@"
-░██████╗░█████╗░██████╗░███████╗███████╗███╗░░██╗  ░██████╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░
-██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝████╗░██║  ██╔════╝██╔══██╗██║░░░██║████╗░██║██╔══██╗
-╚█████╗░██║░░╚═╝██████╔╝█████╗░░█████╗░░██╔██╗██║  ╚█████╗░██║░░██║██║░░░██║██╔██╗██║██║░░██║
-░╚═══██╗██║░░██╗██╔══██╗██╔══╝░░██╔══╝░░██║╚████║  ░╚═══██╗██║░░██║██║░░░██║██║╚████║██║░░██║
-██████╔╝╚█████╔╝██║░░██║███████╗███████╗██║░╚███║  ██████╔╝╚█████╔╝╚██████╔╝██║░╚███║██████╔╝
-╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝  ╚═════╝░░╚════╝░░╚═════╝░╚═╝░░╚══╝╚═════╝░
-");
-}
 
 void ShowMenuOptions()
 {
@@ -45,12 +34,31 @@ void ShowMenuOptions()
     }
 }
 
+void ShowWelcomeMessage()
+{
+    Console.WriteLine(@"
+░██████╗░█████╗░██████╗░███████╗███████╗███╗░░██╗  ░██████╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░
+██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝████╗░██║  ██╔════╝██╔══██╗██║░░░██║████╗░██║██╔══██╗
+╚█████╗░██║░░╚═╝██████╔╝█████╗░░█████╗░░██╔██╗██║  ╚█████╗░██║░░██║██║░░░██║██╔██╗██║██║░░██║
+░╚═══██╗██║░░██╗██╔══██╗██╔══╝░░██╔══╝░░██║╚████║  ░╚═══██╗██║░░██║██║░░░██║██║╚████║██║░░██║
+██████╔╝╚█████╔╝██║░░██║███████╗███████╗██║░╚███║  ██████╔╝╚█████╔╝╚██████╔╝██║░╚███║██████╔╝
+╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝  ╚═════╝░░╚════╝░░╚═════╝░╚═╝░░╚══╝╚═════╝░
+");
+}
+
+void ShowOptionTitle(string title)
+{
+    int numberOfLetters = title.Length;
+    string asterisks = string.Empty.PadLeft(numberOfLetters, '*');
+    Console.WriteLine(asterisks);
+    Console.WriteLine(title);
+    Console.WriteLine(asterisks + "\n");
+}
+
 void RegisterBand()
 {
     Console.Clear();
-    Console.WriteLine(" ******************");
-    Console.WriteLine("  Register a Band");
-    Console.WriteLine(" ******************\n");
+    ShowOptionTitle("Register a Band");
 
     Console.Write("Enter the name of the band you want to register: ");
     string bandName = Console.ReadLine()!;
@@ -65,9 +73,7 @@ void RegisterBand()
 void ShowRegisteredBands()
 {
     Console.Clear();
-    Console.WriteLine(" **************************");
-    Console.WriteLine("  Showing registered bands");
-    Console.WriteLine(" **************************\n");
+    ShowOptionTitle("Showing registered bands");
 
     //for (int i = 0; i < bandsList.Count; i++)
     //{
