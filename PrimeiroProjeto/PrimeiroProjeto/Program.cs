@@ -69,9 +69,14 @@ void ShowRegisteredBands()
     Console.WriteLine("  Showing registered bands");
     Console.WriteLine(" **************************\n");
 
-    for (int i = 0; i < bandsList.Count; i++)
+    //for (int i = 0; i < bandsList.Count; i++)
+    //{
+    //    Console.WriteLine($"Band: {bandsList[i]}");
+    //}
+
+    foreach (string band in bandsList)
     {
-        Console.WriteLine($"Band: {bandsList[i]}");
+        Console.WriteLine($"Band: {band}");
     }
 
     Console.WriteLine("\nEnter any key for return to menu");
