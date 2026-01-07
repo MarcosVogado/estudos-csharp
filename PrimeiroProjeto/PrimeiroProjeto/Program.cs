@@ -28,7 +28,7 @@ void ShowMenuOptions()
             break;
         case 2: ShowRegisteredBands();
             break;
-        case 3: Console.WriteLine("You selected option " + optionChosenInt);
+        case 3: RateBands();
             break;
         case 4: Console.WriteLine("You selected option " + optionChosenInt);
             break;
@@ -94,6 +94,15 @@ void ShowRegisteredBands()
     Console.ReadKey();
     Console.Clear();
     ShowMenuOptions();
+}
+
+void RateBands()
+{
+    Console.Clear();
+    ShowOptionTitle("Rate Band");
+
+    Console.Write("Enter the name of band you want to rate: ");
+    string Console.ReadLine();
 }
 
 ShowMenuOptions();
