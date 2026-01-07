@@ -2,7 +2,10 @@
 string WelcomeMenssage = "Welcome to Screen Sound!";
 //List<string> bandsList = new List<string> { "The Beatles", "Metalica"};
 
-Dictionary<string, List<int>> registeredBands = new Dictionary<string, List<int>>
+Dictionary<string, List<int>> registeredBands = new Dictionary<string, List<int>>();
+registeredBands.Add("Link Park", new List<int> { 10, 8, 6 });
+registeredBands.Add("The Beatles", new List<int>());
+
 
 void ShowMenuOptions()
 {
@@ -64,7 +67,7 @@ void RegisterBand()
 
     Console.Write("Enter the name of the band you want to register: ");
     string bandName = Console.ReadLine()!;
-    bandsList.Add(bandName);
+    registeredBands.Add(bandName, new List<int>());
 
     Console.WriteLine($"The band {bandName} was registered successfully!");
     Thread.Sleep(2000);
@@ -82,7 +85,7 @@ void ShowRegisteredBands()
     //    Console.WriteLine($"Band: {bandsList[i]}");
     //}
 
-    foreach (string band in bandsList)
+    foreach (string band in registeredBands.Keys)
     {
         Console.WriteLine($"Band: {band}");
     }
