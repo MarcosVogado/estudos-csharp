@@ -3,7 +3,7 @@ string WelcomeMenssage = "Welcome to Screen Sound!";
 //List<string> bandsList = new List<string> { "The Beatles", "Metalica"};
 
 Dictionary<string, List<int>> registeredBands = new Dictionary<string, List<int>>();
-registeredBands.Add("Link Park", new List<int> { 10, 8, 6 });
+registeredBands.Add("Linkin Park", new List<int> { 10, 8, 6 });
 registeredBands.Add("The Beatles", new List<int>());
 
 
@@ -106,7 +106,13 @@ void RateBands()
     
     if (registeredBands.ContainsKey(bandName))
     {
-
+        Console.Write($"What Score does the band {bandName} deserve? ");
+        int rate = int.Parse(Console.ReadLine()!);
+        registeredBands[bandName].Add(rate);
+        Console.WriteLine($"The Rate {rate} was registered successfuly for {bandName} band");
+        Thread.Sleep(3500);
+        Console.Clear();
+        ShowMenuOptions();
     } else
     {
         Console.WriteLine($"\nThe band {bandName} not found.");
