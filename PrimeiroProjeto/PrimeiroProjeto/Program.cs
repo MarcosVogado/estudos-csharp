@@ -1,5 +1,6 @@
 ﻿// Screen Sound Project - Band Registration System
 string WelcomeMenssage = "Welcome to Screen Sound!";
+
 //List<string> bandsList = new List<string> { "The Beatles", "Metalica"};
 
 Dictionary<string, List<int>> registeredBands = new Dictionary<string, List<int>>
@@ -34,7 +35,7 @@ void ShowMenuOptions()
             break;
         case 3: RateBands();
             break;
-        case 4: Console.WriteLine("You selected option " + optionChosenInt);
+        case 4: ShowBandAvarage();
             break;
         case -1: Console.WriteLine("Goodbay! :)");
             break;
@@ -56,7 +57,7 @@ void ShowWelcomeMessage()
 }
 
 void ShowOptionTitle(string title)
-{
+{ 
     int numberOfLetters = title.Length;
     string asterisks = string.Empty.PadLeft(numberOfLetters, '*');
     Console.WriteLine(asterisks);
@@ -125,6 +126,15 @@ void RateBands()
         Console.Clear();
         ShowMenuOptions();
     }
+}
+
+void ShowBandAvarage()
+{
+    Console.Clear();
+    ShowOptionTitle("Consult the avarage of a band");
+
+    Console.Write("Enter the name of band you want to see the avarage: ");
+    string bandName = Console.ReadLine()!;
 }
 
 ShowMenuOptions();
