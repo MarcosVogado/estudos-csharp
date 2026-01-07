@@ -90,7 +90,7 @@ void ShowRegisteredBands()
         Console.WriteLine($"Band: {band}");
     }
 
-    Console.WriteLine("\nEnter any key for return to menu");
+    Console.WriteLine("\nEnter any key for return to menu.");
     Console.ReadKey();
     Console.Clear();
     ShowMenuOptions();
@@ -99,10 +99,22 @@ void ShowRegisteredBands()
 void RateBands()
 {
     Console.Clear();
-    ShowOptionTitle("Rate Band");
+    ShowOptionTitle("Rate a Band");
 
     Console.Write("Enter the name of band you want to rate: ");
-    string Console.ReadLine();
+    string bandName = Console.ReadLine()!;
+    
+    if (registeredBands.ContainsKey(bandName))
+    {
+
+    } else
+    {
+        Console.WriteLine($"\nThe band {bandName} not found.");
+        Console.WriteLine("Press any key to go to the menu.");
+        Console.ReadKey();
+        Console.Clear();
+        ShowMenuOptions();
+    }
 }
 
 ShowMenuOptions();
