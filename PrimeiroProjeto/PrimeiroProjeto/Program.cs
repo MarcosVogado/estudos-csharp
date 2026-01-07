@@ -2,10 +2,14 @@
 string WelcomeMenssage = "Welcome to Screen Sound!";
 //List<string> bandsList = new List<string> { "The Beatles", "Metalica"};
 
-Dictionary<string, List<int>> registeredBands = new Dictionary<string, List<int>>();
-registeredBands.Add("Linkin Park", new List<int> { 10, 8, 6 });
-registeredBands.Add("The Beatles", new List<int>());
+Dictionary<string, List<int>> registeredBands = new Dictionary<string, List<int>>
+{
+    {"Metalica", new List<int> {9, 9, 10 } },
+    {"Linkin Park", new List<int> { 10, 8, 6 } },
+    {"The Beatles", new List<int> { 10, 10, 6} }
+};
 
+registeredBands.Add("Audioslave", new List<int> { 10, 5, 4});
 
 void ShowMenuOptions()
 {
@@ -109,7 +113,7 @@ void RateBands()
         Console.Write($"What Score does the band {bandName} deserve? ");
         int rate = int.Parse(Console.ReadLine()!);
         registeredBands[bandName].Add(rate);
-        Console.WriteLine($"The Rate {rate} was registered successfuly for {bandName} band");
+        Console.WriteLine($"\nThe Rate {rate} was registered successfuly for {bandName} band");
         Thread.Sleep(3500);
         Console.Clear();
         ShowMenuOptions();
