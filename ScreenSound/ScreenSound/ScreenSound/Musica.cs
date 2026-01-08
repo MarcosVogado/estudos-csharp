@@ -3,6 +3,6 @@
     string name;
     string artist;
     int duration;
-    bool avaliable;
+    bool avaliableInYourPlan;
     bool isSingle;
 }
