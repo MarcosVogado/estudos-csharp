@@ -135,6 +135,32 @@ void ShowBandAvarage()
 
     Console.Write("Enter the name of band you want to see the avarage: ");
     string bandName = Console.ReadLine()!;
+
+    if (registeredBands.ContainsKey(bandName))
+    {
+        int sumRate = 0;
+
+        foreach (int rate in registeredBands[bandName])
+        { 
+            sumRate += rate;
+        }
+
+        float rateAvarage = 0;
+        rateAvarage = sumRate / registeredBands[bandName].Count;
+
+        Console.WriteLine($"\nThe rate avarage of {bandName} is {rateAvarage}/10");
+        Thread.Sleep(4000);
+        Console.Clear();
+        ShowMenuOptions();
+    }
+    else
+    {
+        Console.WriteLine($"\nThe band {bandName} not found.");
+        Console.WriteLine("Press any key to go to the menu.");
+        Console.ReadKey();
+        Console.Clear();
+        ShowMenuOptions();
+    }
 }
 
 ShowMenuOptions();
