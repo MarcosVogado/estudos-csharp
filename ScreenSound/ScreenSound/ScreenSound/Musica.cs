@@ -1,8 +1,8 @@
 ﻿class Musica
 {
-    string name;
-    string artist;
-    int duration;
-    bool avaliableInYourPlan;
-    bool isSingle;
+    public string name;
+    public string artist;
+    public int duration;
+    public bool avaliableInYourPlan;
+    public bool isSingle;
 }
