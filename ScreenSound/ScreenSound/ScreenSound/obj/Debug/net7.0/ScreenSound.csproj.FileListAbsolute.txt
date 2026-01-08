@@ -1,0 +1,15 @@
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.exe
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.deps.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.runtimeconfig.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.sourcelink.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\refint\ScreenSound.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSound\ScreenSound\ScreenSound\obj\Debug\net7.0\ref\ScreenSound.dll
