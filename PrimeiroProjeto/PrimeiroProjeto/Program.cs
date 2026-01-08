@@ -138,17 +138,18 @@ void ShowBandAvarage()
 
     if (registeredBands.ContainsKey(bandName))
     {
-        int sumRate = 0;
+        //int sumRate = 0;
+        //foreach (int rate in registeredBands[bandName])
+        //{ 
+        //    sumRate += rate;
+        //}
 
-        foreach (int rate in registeredBands[bandName])
-        { 
-            sumRate += rate;
-        }
+        //float rateAvarage = 0;
+        //rateAvarage = sumRate / registeredBands[bandName].Count;
 
-        float rateAvarage = 0;
-        rateAvarage = sumRate / registeredBands[bandName].Count;
+        List<int> rateList = registeredBands[bandName];
 
-        Console.WriteLine($"\nThe rate avarage of {bandName} is {rateAvarage}/10");
+        Console.WriteLine($"\nThe rate avarage of {bandName} is {rateList.Average()}/10.");
         Thread.Sleep(4000);
         Console.Clear();
         ShowMenuOptions();
