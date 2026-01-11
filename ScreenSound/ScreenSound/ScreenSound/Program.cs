@@ -1,23 +1,11 @@
-﻿Music musica1 = new Music();
-musica1.Name = "Unforgiven";
-musica1.Artist = "Metallica";
-musica1.Duration = 420;
-musica1.SetAvaliableInYourPlan(true);
+﻿Album meteora = new Album();
+meteora.Name = "Meteora";
 
-//Console.WriteLine($"Name: {musica1.name}");
-//Console.WriteLine($"Artist: {musica1.artist}");
+Music music1 = new Music();
+music1.Name = "Numb";
 
-Console.WriteLine(musica1.Description);
-musica1.ShowTechnicalSheet();
+Music music2 = new Music();
+music2.Name = "Faint";
 
-Music musica2 = new Music();
-musica2.Name = "Like a Stone";
-musica2.Artist = "Audioslave";
-musica2.Duration = 350;
-musica2.SetAvaliableInYourPlan(false);
-
-//Console.WriteLine($"\nName: {musica1.name}");
-//Console.WriteLine($"Artist: {musica1.artist}");
-
-Console.WriteLine(musica2.Description);
-musica2.ShowTechnicalSheet();
+meteora.AddMusic(music1);
+meteora.AddMusic(music2);

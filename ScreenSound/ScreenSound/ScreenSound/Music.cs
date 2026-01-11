@@ -12,15 +12,15 @@
         }
     }
 
-    public void SetAvaliableInYourPlan(bool avaliable)
-    {
-        AvaliableInYourPlan = avaliable;
-    }
+    //public void SetAvaliableInYourPlan(bool avaliable)
+    //{
+    //    AvaliableInYourPlan = avaliable;
+    //}
 
-    public bool GetAvaliableInYourPlan()
-    {
-        return AvaliableInYourPlan;
-    }
+    //public bool GetAvaliableInYourPlan()
+    //{
+    //    return AvaliableInYourPlan;
+    //}
 
     public void ShowTechnicalSheet()
     {
