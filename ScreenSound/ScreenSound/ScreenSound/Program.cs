@@ -2,7 +2,7 @@
 musica1.name = "Unforgiven";
 musica1.artist = "Metallica";
 musica1.duration = 420;
-musica1.avaliableInYourPlan = true;
+musica1.SetAvaliableInYourPlan(true);
 
 //Console.WriteLine($"Name: {musica1.name}");
 //Console.WriteLine($"Artist: {musica1.artist}");
@@ -13,7 +13,7 @@ Music musica2 = new Music();
 musica2.name = "Like a Stone";
 musica2.artist = "Audioslave";
 musica2.duration = 350;
-musica2.avaliableInYourPlan = false;
+musica2.SetAvaliableInYourPlan(false);
 
 //Console.WriteLine($"\nName: {musica1.name}");
 //Console.WriteLine($"Artist: {musica1.artist}");

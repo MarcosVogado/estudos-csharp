@@ -3,7 +3,17 @@
     public string name;
     public string artist;
     public int duration;
-    public bool avaliableInYourPlan;
+    private bool avaliableInYourPlan;
+
+    public void SetAvaliableInYourPlan(bool avaliable)
+    {
+        avaliableInYourPlan = avaliable;
+    }
+
+    public bool GetAvaliableInYourPlan()
+    {
+        return avaliableInYourPlan;
+    }
 
     public void ShowTechnicalSheet()
     {
