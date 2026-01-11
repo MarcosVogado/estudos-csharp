@@ -1,26 +1,33 @@
 ﻿class Music
 {
-    public string name;
-    public string artist;
-    public int duration;
-    private bool avaliableInYourPlan;
+    public string Name { get; set; }
+    public string Artist { get; set; }
+    public int Duration { get; set; }
+    public bool AvaliableInYourPlan { get; set; }
+    public string Description 
+    {
+        get 
+        {
+            return $"The song {Name} belongs to {Artist}.";
+        }
+    }
 
     public void SetAvaliableInYourPlan(bool avaliable)
     {
-        avaliableInYourPlan = avaliable;
+        AvaliableInYourPlan = avaliable;
     }
 
     public bool GetAvaliableInYourPlan()
     {
-        return avaliableInYourPlan;
+        return AvaliableInYourPlan;
     }
 
     public void ShowTechnicalSheet()
     {
-        Console.WriteLine($"Name: {name}");
-        Console.WriteLine($"Artist: {artist}");
-        Console.WriteLine($"Duration: {duration}");
-        if (avaliableInYourPlan)
+        Console.WriteLine($"Name: {Name}");
+        Console.WriteLine($"Artist: {Artist}");
+        Console.WriteLine($"Duration: {Duration}");
+        if (AvaliableInYourPlan)
         {
             Console.WriteLine("Available in your plan");
 
