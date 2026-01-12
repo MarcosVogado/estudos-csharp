@@ -12,4 +12,7 @@ music2.Duration = 162;
 meteora.AddMusic(music1);
 meteora.AddMusic(music2);
 
-meteora.ShowAlbumDetails();
+Band linkinPark = new Band();
+linkinPark.Name = "Linkin Park";
+linkinPark.AddAlbum(meteora);
+linkinPark.ShowBandDetails();
