@@ -2,6 +2,7 @@
 {
     public string Name { get; set; }
     public string Artist { get; set; }
+    public Gender Gender { get; set; }
     public int Duration { get; set; }
     public bool AvaliableInYourPlan { get; set; }
     public string Description 
