@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\podcast\\podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|solutionrelative:podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Program.cs",
+              "RelativeDocumentMoniker": "Podcast\\Program.cs",
+              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Program.cs",
+              "RelativeToolTip": "Podcast\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:14:19.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

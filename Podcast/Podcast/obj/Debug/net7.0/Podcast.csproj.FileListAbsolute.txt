@@ -1,0 +1,15 @@
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\bin\Debug\net7.0\Podcast.exe
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\bin\Debug\net7.0\Podcast.deps.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\bin\Debug\net7.0\Podcast.runtimeconfig.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\bin\Debug\net7.0\Podcast.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\bin\Debug\net7.0\Podcast.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.sourcelink.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\refint\Podcast.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\Podcast.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\Podcast\Podcast\obj\Debug\net7.0\ref\Podcast.dll
