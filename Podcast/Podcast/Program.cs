@@ -1,10 +1,10 @@
 ﻿Podcast podcast1 = new Podcast("Igor 3K", "Flow Podcast");
 
-Episode episode1 = new Episode(1, "The Rise of AI")
+Episode episode1 = new Episode(2, "The Rise of AI")
 {
     DurationInMinutes = 60,
 };
-Episode episode2 = new Episode(2, "Future of Work")
+Episode episode2 = new Episode(1, "Future of Work")
 {
     DurationInMinutes = 45,
 };

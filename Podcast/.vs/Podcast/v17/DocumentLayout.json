@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\podcast\\podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|solutionrelative:podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\podcast\\podcast\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|solutionrelative:podcast\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\podcast\\podcast\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|solutionrelative:podcast\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\podcast\\podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F38477-27C4-4686-B0AF-90F2F078E0A2}|Podcast\\Podcast.csproj|solutionrelative:podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Podcast.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Podcast.cs",
               "RelativeDocumentMoniker": "Podcast\\Podcast.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Podcast.cs",
               "RelativeToolTip": "Podcast\\Podcast.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wB0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T16:23:19.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Episode.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Episode.cs",
               "RelativeDocumentMoniker": "Podcast\\Episode.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Episode.cs",
               "RelativeToolTip": "Podcast\\Episode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T16:29:01.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Program.cs",
               "RelativeDocumentMoniker": "Podcast\\Program.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\Podcast\\Podcast\\Program.cs",
               "RelativeToolTip": "Podcast\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T16:14:19.81Z",
               "EditorCaption": ""

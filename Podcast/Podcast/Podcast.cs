@@ -19,10 +19,11 @@
 
     public void ShowDetails()
     {
+        episodesCount = episodesList.Count;
         Console.WriteLine($"Podcast: {Name} by {Host}");
-        Console.WriteLine("*Episodes:");
+        Console.WriteLine($"*Episodes:   ({episodesCount})");
 
-        foreach (Episode episode in episodesList)
+        foreach (Episode episode in episodesList.OrderBy(e => e.EpisodeNumber))
         {
             episode.Resume = $"   Episode {episode.EpisodeNumber}: {episode.Title} - Duration: {episode.DurationInMinutes} mins";
 
