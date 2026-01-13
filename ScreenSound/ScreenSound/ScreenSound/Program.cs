@@ -1,19 +1,24 @@
-﻿Band linkinPark = new Band();
-linkinPark.Name = "Linkin Park";
+﻿Band linkinPark = new Band("Linkin Park");
+Album meteora = new Album("Meteora");
 
-Album meteora = new Album();
-meteora.Name = "Meteora";
+Music music1 = new Music(linkinPark, "Numb")
+{
+    Duration = 185,
+    AvaliableInYourPlan = true
+};
 
-Music music1 = new Music(linkinPark);
-music1.Name = "Numb";
-music1.Duration = 185;
-
-Music music2 = new Music(linkinPark);
-music2.Name = "Faint";
-music2.Duration = 162;
+Music music2 = new Music(linkinPark, "Faint")
+{
+    Duration = 162,
+    AvaliableInYourPlan = false
+};
 
 meteora.AddMusic(music1);
-meteora.AddMusic(music2);
+meteora.AddMusic(music2);  
 
-linkinPark.AddAlbum(meteora);
 linkinPark.ShowBandDetails();
+linkinPark.AddAlbum(meteora);
+meteora.ShowAlbumDetails();
+
+music1.ShowTechnicalSheet();
+music2.ShowTechnicalSheet();

@@ -1,8 +1,9 @@
 ﻿class Music
 {
-    public Music(Band artist)
+    public Music(Band artist, string name)
     {
         Artist = artist;
+        Name = name;
     }
 
     public string Name { get; set; }
@@ -31,7 +32,7 @@
     public void ShowTechnicalSheet()
     {
         Console.WriteLine($"Name: {Name}");
-        Console.WriteLine($"Artist: {Artist}");
+        Console.WriteLine($"Artist: {Artist.Name}");
         Console.WriteLine($"Duration: {Duration}");
         if (AvaliableInYourPlan)
         {

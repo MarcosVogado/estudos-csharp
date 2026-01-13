@@ -1,7 +1,13 @@
 ﻿class Band
 {
     public List<Album> albumList { get; set; } = new List<Album>();
-    public string Name { get; set; }
+
+    public Band(string name)
+    {
+        Name = name;    
+    }
+
+    public string Name { get; }
 
     public void AddAlbum(Album album)
     {
@@ -10,7 +16,7 @@
 
     public void ShowBandDetails()
     {
-        Console.WriteLine("***** Band details *****");
+        Console.WriteLine($"***** details to {Name} *****");
 
         foreach (Album album in albumList)
         {
