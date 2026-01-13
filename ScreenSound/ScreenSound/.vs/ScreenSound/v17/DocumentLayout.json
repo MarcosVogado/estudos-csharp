@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensound\\screensound\\screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensound\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensound\\screensound\\screensound\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensound\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensound\\screensound\\screensound\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensound\\screensound\\screensound\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensound\\screensound\\screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA29D42-6EB8-4BDC-BB78-4DF9CB4557AD}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,39 +38,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Band.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Band.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Band.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Band.cs",
               "RelativeToolTip": "ScreenSound\\Band.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T14:26:38.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Gender.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Gender.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Gender.cs",
               "RelativeToolTip": "ScreenSound\\Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T12:40:28.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Album.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Album.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Album.cs",
               "RelativeToolTip": "ScreenSound\\Album.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T11:57:27.375Z",
               "EditorCaption": ""
@@ -90,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSound\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeToolTip": "ScreenSound\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T17:47:21.582Z",
               "EditorCaption": ""
