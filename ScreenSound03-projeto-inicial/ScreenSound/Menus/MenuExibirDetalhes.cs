@@ -14,6 +14,7 @@ internal class MenuExibirDetalhes : Menu
         {
             Banda banda = bandasRegistradas[nomeDaBanda];
             Console.WriteLine("---> Discografia:");
+            Console.WriteLine(banda.Resumo);
 
             foreach (Album album in banda.Albuns)
             {

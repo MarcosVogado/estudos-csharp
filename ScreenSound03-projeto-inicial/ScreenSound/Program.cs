@@ -1,19 +1,5 @@
 ﻿using ScreenSound.Menus;
 using ScreenSound.Modelos;
-using OpenAI_API;
-
-var client = new OpenAIAPI(
-    Environment.GetEnvironmentVariable("OPENAI_API_KEY")
-);
-
-var chat = client.Chat.CreateConversation();
-
-chat.AppendSystemMessage("Qual é a capital do Brasil?");
-
-string response = await chat.GetResponseFromChatbotAsync();
-
-Console.WriteLine(response);
-
 
 Banda metalica = new Banda("Metallica");
 metalica.AdicionarNota(new Avaliacao(10));
@@ -85,4 +71,4 @@ void ExibirOpcoesDoMenu()
     }
 }
 
-//ExibirOpcoesDoMenu();
+ExibirOpcoesDoMenu();
