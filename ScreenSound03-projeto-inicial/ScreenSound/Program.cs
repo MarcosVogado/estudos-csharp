@@ -14,6 +14,14 @@ Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(metalica.Nome, metalica);
 bandasRegistradas.Add(beatles.Nome, beatles);
 
+Dictionary<int, Menu> opcoes = new();
+opcoes.Add(1, new MenuRegistrarBanda());
+opcoes.Add(2, new MenuRegistrarAlbum());
+opcoes.Add(3, new MenuMostrarBandas());
+opcoes.Add(4, new MenuAvaliarBanda());
+opcoes.Add(5, new MenuExibirDetalhes());
+opcoes.Add(-1, new MenuSair());
+
 void ExibirLogo()
 {
     Console.WriteLine(@"
@@ -42,40 +50,49 @@ void ExibirOpcoesDoMenu()
     string opcaoEscolhida = Console.ReadLine()!;
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
-    switch (opcaoEscolhidaNumerica)
+    if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
     {
-        case 1:
-            MenuRegistrarBanda menuRegistrarBanda = new MenuRegistrarBanda();
-            menuRegistrarBanda.RegistrarBanda(bandasRegistradas);
-            ExibirOpcoesDoMenu();
-            break;
-        case 2:
-            MenuRegistrarAlbum menuRegistrarAlbum = new MenuRegistrarAlbum();
-            menuRegistrarAlbum.RegistrarAlbum(bandasRegistradas);
-            ExibirOpcoesDoMenu();
-            break;
-        case 3:
-            MenuMostrarBandas menuMostrarBandas = new MenuMostrarBandas();
-            menuMostrarBandas.MostrarBandasRegistradas(bandasRegistradas);
-            ExibirOpcoesDoMenu();
-            break;
-        case 4:
-            MenuAvaliarBanda menuBandasRegistradas = new MenuAvaliarBanda();
-            menuBandasRegistradas.Executar(bandasRegistradas);
-            ExibirOpcoesDoMenu();
-            break;
-        case 5:
-            MenuExibirDetalhes menuDetalhes = new MenuExibirDetalhes();
-            menuDetalhes.Executar(bandasRegistradas);
-            ExibirOpcoesDoMenu();
-            break;
-        case -1:
-            Console.WriteLine("Tchau tchau :)");
-            break;
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
+        Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
+    } else
+    {
+        Console.WriteLine("Opção inválida!");
     }
+
+        switch (opcaoEscolhidaNumerica)
+        {
+            case 1:
+                MenuRegistrarBanda menuRegistrarBanda = new MenuRegistrarBanda();
+                menuRegistrarBanda.RegistrarBanda(bandasRegistradas);
+                ExibirOpcoesDoMenu();
+                break;
+            case 2:
+                MenuRegistrarAlbum menuRegistrarAlbum = new MenuRegistrarAlbum();
+                menuRegistrarAlbum.RegistrarAlbum(bandasRegistradas);
+                ExibirOpcoesDoMenu();
+                break;
+            case 3:
+                MenuMostrarBandas menuMostrarBandas = new MenuMostrarBandas();
+                menuMostrarBandas.MostrarBandasRegistradas(bandasRegistradas);
+                ExibirOpcoesDoMenu();
+                break;
+            case 4:
+                MenuAvaliarBanda menuBandasRegistradas = new MenuAvaliarBanda();
+                menuBandasRegistradas.Executar(bandasRegistradas);
+                ExibirOpcoesDoMenu();
+                break;
+            case 5:
+                MenuExibirDetalhes menuDetalhes = new MenuExibirDetalhes();
+                menuDetalhes.Executar(bandasRegistradas);
+                ExibirOpcoesDoMenu();
+                break;
+            case -1:
+                MenuSair menuSair = new MenuSair();
+                menuSair.Sair(bandasRegistradas);
+                break;
+            default:
+                Console.WriteLine("Opção inválida");
+                break;
+        }
 }
 
 ExibirOpcoesDoMenu();
