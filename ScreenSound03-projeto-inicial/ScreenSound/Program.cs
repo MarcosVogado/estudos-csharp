@@ -1,5 +1,19 @@
-﻿using ScreenSound.Modelos;
-using ScreenSound.Menus;
+﻿using ScreenSound.Menus;
+using ScreenSound.Modelos;
+using OpenAI_API;
+
+var client = new OpenAIAPI(
+    Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+var chat = client.Chat.CreateConversation();
+
+chat.AppendSystemMessage("Qual é a capital do Brasil?");
+
+string response = await chat.GetResponseFromChatbotAsync();
+
+Console.WriteLine(response);
+
 
 Banda metalica = new Banda("Metallica");
 metalica.AdicionarNota(new Avaliacao(10));
@@ -9,6 +23,11 @@ metalica.AdicionarNota(new Avaliacao(9));
 Banda beatles = new Banda("The Beatles");
 beatles.AdicionarNota(new Avaliacao(10));
 beatles.AdicionarNota(new Avaliacao(3));
+
+beatles.AdicionarAlbum(new Album("White Album"));
+beatles.AdicionarAlbum(new Album("Revolver"));
+beatles.AdicionarAlbum(new Album("Abbey Road"));
+beatles.Albuns.Clear(); 
 
 Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(metalica.Nome, metalica);
@@ -66,4 +85,4 @@ void ExibirOpcoesDoMenu()
     }
 }
 
-ExibirOpcoesDoMenu();
+//ExibirOpcoesDoMenu();
