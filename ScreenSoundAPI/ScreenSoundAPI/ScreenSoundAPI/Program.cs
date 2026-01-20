@@ -1,10 +1,5 @@
-﻿namespace ScreenSoundAPI
+﻿using (HttpClient client = new HttpClient())
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+    string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
+    Console.WriteLine(resposta);
 }

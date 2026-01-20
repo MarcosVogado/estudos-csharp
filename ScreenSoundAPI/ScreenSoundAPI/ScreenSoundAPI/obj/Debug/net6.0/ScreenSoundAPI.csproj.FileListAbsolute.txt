@@ -1,0 +1,15 @@
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\bin\Debug\net6.0\ScreenSoundAPI.exe
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\bin\Debug\net6.0\ScreenSoundAPI.deps.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\bin\Debug\net6.0\ScreenSoundAPI.runtimeconfig.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\bin\Debug\net6.0\ScreenSoundAPI.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\bin\Debug\net6.0\ScreenSoundAPI.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.sourcelink.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\refint\ScreenSoundAPI.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ScreenSoundAPI.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\ScreenSoundAPI\ScreenSoundAPI\ScreenSoundAPI\obj\Debug\net6.0\ref\ScreenSoundAPI.dll
