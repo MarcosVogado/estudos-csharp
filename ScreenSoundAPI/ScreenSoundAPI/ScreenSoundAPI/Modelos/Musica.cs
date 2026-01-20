@@ -18,9 +18,10 @@ internal class Musica
 
     public void ExibirDetalhesDaMusica()
     {
+        Console.WriteLine("*** Detalhes da Música ***");
         Console.WriteLine($"Título: {Titulo}");
         Console.WriteLine($"Artista: {Artista}");
         Console.WriteLine($"Duração (em segundos): {Duracao /1000}s");
-        Console.WriteLine($"Gênero: {Genero}");
+        Console.WriteLine($"Gênero: {Genero}\n");
     }
 }
