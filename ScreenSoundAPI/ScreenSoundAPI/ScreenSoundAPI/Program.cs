@@ -12,9 +12,11 @@ using (HttpClient client = new HttpClient())
         //Console.WriteLine($"Foram encontradas {musicas.Count} músicas na API.\n");
         //musicas[10].ExibirDetalhesDaMusica();
         
-        //LinqFilter.FiltrarGeneros(musicas);
+        //LinqFilter.FiltrarGenerosDasMusicas(musicas);
         //LinqOrder.ExibirArtistasOrdenados(musicas);
-        LinqFilter.FiltrarArtistaPorGenero(musicas, "Rock");
+        //LinqFilter.FiltrarArtistasPorGenero(musicas, "Rock");
+        //LinqFilter.FiltrarMusicasPorArtista(musicas, "Tyga");
+
     }
     catch (Exception excecao)
     {

@@ -4,7 +4,7 @@ namespace ScreenSoundAPI.Filtros;
 
 internal class LinqFilter
 {
-    public static void FiltrarGeneros(List<Musica> musicas)
+    public static void FiltrarGenerosDasMusicas(List<Musica> musicas)
     {
         var todosGeneros = musicas.Select(generos => generos.Genero).Distinct().ToList();
 
@@ -16,15 +16,27 @@ internal class LinqFilter
         }
     }
 
-    public static void FiltrarArtistaPorGenero(List<Musica> musicas, string genero)
+    public static void FiltrarArtistasPorGenero(List<Musica> musicas, string genero)
     {
-        var artistasPorGenero = musicas.Where(musica => musica.Genero.Contains(genero.ToLower())).Select(musica => musica.Artista).Distinct().ToList();
+        var artistasPorGenero = musicas.Where(musica => musica.Genero!.Contains(genero.ToLower())).Select(musica => musica.Artista).Distinct().ToList();
 
         Console.WriteLine($"\nLista de artistas do gênero {genero}:");
 
         foreach (var artista in artistasPorGenero)
         {
             Console.WriteLine($"- {artista}");
+        }
+    }
+
+    public static void FiltrarMusicasPorArtista(List<Musica> musicas, string artista)
+    {
+        var musicasDoArtista = musicas.Where(musica => musica.Artista!.Equals(artista)).ToList();
+
+        Console.WriteLine($"\nLista de músicas do artista {artista}:");
+
+        foreach (var musica in musicasDoArtista)
+        {
+            Console.WriteLine($"- {musica.Titulo}");
         }
     }
 }
