@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A8D5D821-64AA-46BE-BCD9-1EE292B4667F}|ScreenSoundAPI\\ScreenSoundAPI.csproj|solutionrelative:screensoundapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A8D5D821-64AA-46BE-BCD9-1EE292B4667F}|ScreenSoundAPI\\ScreenSoundAPI.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensoundapi\\screensoundapi\\screensoundapi\\filtros\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D5D821-64AA-46BE-BCD9-1EE292B4667F}|ScreenSoundAPI\\ScreenSoundAPI.csproj|solutionrelative:screensoundapi\\filtros\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8D5D821-64AA-46BE-BCD9-1EE292B4667F}|ScreenSoundAPI\\ScreenSoundAPI.csproj|c:\\users\\marco\\onedrive\\documents\\work\\estudos-csharp\\screensoundapi\\screensoundapi\\screensoundapi\\filtros\\linqfiltro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8D5D821-64AA-46BE-BCD9-1EE292B4667F}|ScreenSoundAPI\\ScreenSoundAPI.csproj|solutionrelative:screensoundapi\\filtros\\linqfiltro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,10 +36,23 @@
               "RelativeDocumentMoniker": "ScreenSoundAPI\\Program.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Program.cs",
               "RelativeToolTip": "ScreenSoundAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T18:06:42.625Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinqOrder.cs",
+              "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Filtros\\LinqOrder.cs",
+              "RelativeDocumentMoniker": "ScreenSoundAPI\\Filtros\\LinqOrder.cs",
+              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Filtros\\LinqOrder.cs",
+              "RelativeToolTip": "ScreenSoundAPI\\Filtros\\LinqOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:55:16.058Z",
               "EditorCaption": ""
             },
             {
@@ -44,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LinqFiltro.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Filtros\\LinqFiltro.cs",
               "RelativeDocumentMoniker": "ScreenSoundAPI\\Filtros\\LinqFiltro.cs",
@@ -57,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Musica.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Modelos\\Musica.cs",
               "RelativeDocumentMoniker": "ScreenSoundAPI\\Modelos\\Musica.cs",
