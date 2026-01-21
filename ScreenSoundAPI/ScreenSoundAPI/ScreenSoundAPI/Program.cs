@@ -17,6 +17,21 @@ using (HttpClient client = new HttpClient())
         //LinqFilter.FiltrarArtistasPorGenero(musicas, "Rock");
         //LinqFilter.FiltrarMusicasPorArtista(musicas, "Tyga");
 
+        var minhasMusicasPreferidas = new MusicasPreferidas("Marcos");
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[10]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[20]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[30]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[40]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[50]);
+        minhasMusicasPreferidas.ExibirMusicasFavoritas();
+
+        var minhasSegundasMusicasPreferidas = new MusicasPreferidas("Ana");
+        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[15]);
+        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[25]);
+        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[35]);
+        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[45]);
+        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[55]);
+        minhasSegundasMusicasPreferidas.ExibirMusicasFavoritas();
     }
     catch (Exception excecao)
     {
