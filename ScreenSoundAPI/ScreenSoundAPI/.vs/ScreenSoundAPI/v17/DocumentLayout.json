@@ -36,11 +36,15 @@
               "RelativeDocumentMoniker": "ScreenSoundAPI\\Program.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Program.cs",
               "RelativeToolTip": "ScreenSoundAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T18:06:42.625Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -50,14 +54,10 @@
               "RelativeDocumentMoniker": "ScreenSoundAPI\\Filtros\\LinqOrder.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Filtros\\LinqOrder.cs",
               "RelativeToolTip": "ScreenSoundAPI\\Filtros\\LinqOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T14:55:16.058Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -67,7 +67,7 @@
               "RelativeDocumentMoniker": "ScreenSoundAPI\\Filtros\\LinqFiltro.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\estudos-csharp\\ScreenSoundAPI\\ScreenSoundAPI\\ScreenSoundAPI\\Filtros\\LinqFiltro.cs",
               "RelativeToolTip": "ScreenSoundAPI\\Filtros\\LinqFiltro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBQAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T14:27:59.718Z",
               "EditorCaption": ""
