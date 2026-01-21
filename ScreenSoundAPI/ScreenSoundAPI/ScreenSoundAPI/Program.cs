@@ -24,14 +24,15 @@ using (HttpClient client = new HttpClient())
         minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[40]);
         minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[50]);
         minhasMusicasPreferidas.ExibirMusicasFavoritas();
+        minhasMusicasPreferidas.GerarArquivoJson();
 
-        var minhasSegundasMusicasPreferidas = new MusicasPreferidas("Ana");
-        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[15]);
-        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[25]);
-        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[35]);
-        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[45]);
-        minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[55]);
-        minhasSegundasMusicasPreferidas.ExibirMusicasFavoritas();
+        //var minhasSegundasMusicasPreferidas = new MusicasPreferidas("Ana");
+        //minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[15]);
+        //minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[25]);
+        //minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[35]);
+        //minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[45]);
+        //minhasSegundasMusicasPreferidas.AdicionarMusicaFavorita(musicas[55]);
+        //minhasSegundasMusicasPreferidas.ExibirMusicasFavoritas();
     }
     catch (Exception excecao)
     {
