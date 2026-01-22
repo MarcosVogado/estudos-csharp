@@ -40,6 +40,6 @@ internal class MusicasPreferidas
 
         File.WriteAllText(nomeDoArquivo, json);
 
-        Console.WriteLine($"\nArquivo {nomeDoArquivo} gerado com sucesso!");
+        Console.WriteLine($"\nArquivo {nomeDoArquivo} gerado com sucesso! {Path.GetFullPath(nomeDoArquivo)}");
     }
 }
