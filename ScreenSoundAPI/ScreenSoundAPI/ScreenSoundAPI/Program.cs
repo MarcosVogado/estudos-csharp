@@ -10,12 +10,13 @@ using (HttpClient client = new HttpClient())
         //Console.WriteLine(resposta);
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
         Console.WriteLine($"Foram encontradas {musicas.Count} músicas na API.\n");
-        musicas[100].ExibirDetalhesDaMusica();
+        musicas[1].ExibirDetalhesDaMusica();
         
         //LinqFilter.FiltrarGenerosDasMusicas(musicas);
         //LinqOrder.ExibirArtistasOrdenados(musicas);
         //LinqFilter.FiltrarArtistasPorGenero(musicas, "Rock");
         //LinqFilter.FiltrarMusicasPorArtista(musicas, "Tyga");
+        LinqFilter.FiltrarMusicaPorTonalidade(musicas, "C#");
 
         //var minhasMusicasPreferidas = new MusicasPreferidas("Marcos");
         //minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[10]);
