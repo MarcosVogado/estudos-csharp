@@ -7,7 +7,7 @@ class Program
     {
         //var enderecoDoArquivo = "contas.txt";
         var numeroDeBytesLidos = -1;
-        var fluxoDoArquivo = new FileStream("contas.txt", FileMode.Open);
+        //var fluxoDoArquivo = new FileStream("contas.txt", FileMode.Open);
         var buffer = new byte[1024]; //1Kb
 
         // public override int Read(byte[] buffer, int offset, int count)
