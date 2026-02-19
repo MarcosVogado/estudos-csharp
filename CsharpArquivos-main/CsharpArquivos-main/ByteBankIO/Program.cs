@@ -2,7 +2,7 @@
 using System.Text;
 
 class Program
-{
+{ 
     static void Main(string[] args)
     {
         var enderecoDoArquivo = "contas.txt";
@@ -18,6 +18,8 @@ class Program
             numeroDeBytesLidos = fluxoDoArquivo.Read(buffer, 0, 1024);
             EscreverBuffer(buffer);
         }
+
+        fluxoDoArquivo.Close();
 
         Console.ReadLine();
     }
