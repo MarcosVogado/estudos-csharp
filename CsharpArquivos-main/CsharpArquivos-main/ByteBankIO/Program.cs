@@ -5,9 +5,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        //var enderecoDoArquivo = "contas.txt";
+        var enderecoDoArquivo = "contas.txt";
         var numeroDeBytesLidos = -1;
-        //var fluxoDoArquivo = new FileStream("contas.txt", FileMode.Open);
+        var fluxoDoArquivo = new FileStream(enderecoDoArquivo, FileMode.Open);
         var buffer = new byte[1024]; //1Kb
 
         // public override int Read(byte[] buffer, int offset, int count)
