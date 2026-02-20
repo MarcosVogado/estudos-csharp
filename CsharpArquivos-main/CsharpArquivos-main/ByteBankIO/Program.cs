@@ -9,7 +9,7 @@ class Program
         var numeroDeBytesLidos = -1;
         var fluxoDoArquivo = new FileStream(enderecoDoArquivo, FileMode.Open);
         var buffer = new byte[1024]; //1Kb
-
+        // hoje o pae tá com preguiça fi
         // public override int Read(byte[] buffer, int offset, int count)
         numeroDeBytesLidos = fluxoDoArquivo.Read(buffer, 0, 1024);
 
