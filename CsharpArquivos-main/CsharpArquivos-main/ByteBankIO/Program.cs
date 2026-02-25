@@ -18,11 +18,32 @@ using System.Text;
             while (!leitor.EndOfStream)
             {
                 var linha = leitor.ReadLine();
-                Console.WriteLine(linha);
+                var contaCorrente = ConverterStringParaContaCorrente(linha);
+
+                var msg = $"Titular: {contaCorrente.Titular}, Agência: {contaCorrente.Agencia}, Número: {contaCorrente.Numero}, Saldo: {contaCorrente.Saldo}";
+                Console.WriteLine(msg);
             }
 
         }
 
         Console.ReadLine();
+    }
+
+    static ContaCorrente ConverterStringParaContaCorrente(string linha)
+    {
+        var campos = linha.Split(',');
+
+        var agencia = int.Parse(campos[0]);
+        var numero = int.Parse(campos[1]);
+        var saldo = double.Parse(campos[2].Replace('.', ','));
+        var titular = campos[3];
+
+        var titularDaConta = new Cliente();
+        titularDaConta.Nome = titular;
+
+        var conta = new ContaCorrente(agencia, numero);
+        conta.Depositar(saldo);
+
+        return conta;
     }
 }
