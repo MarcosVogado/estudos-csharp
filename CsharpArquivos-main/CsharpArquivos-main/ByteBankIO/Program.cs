@@ -1,4 +1,5 @@
 ﻿using ByteBankIO;
+using System.Globalization;
 using System.Text;
 
  partial class Program
@@ -20,8 +21,9 @@ using System.Text;
                 var linha = leitor.ReadLine();
                 var contaCorrente = ConverterStringParaContaCorrente(linha);
 
-                var msg = $"Titular: {contaCorrente.Titular}, Agência: {contaCorrente.Agencia}, Número: {contaCorrente.Numero}, Saldo: {contaCorrente.Saldo}";
+                var msg = $"Titular: {contaCorrente.Titular.Nome}, Agência: {contaCorrente.Agencia}, Número: {contaCorrente.Numero}, Saldo: {contaCorrente.Saldo}";
                 Console.WriteLine(msg);
+
             }
 
         }
@@ -35,13 +37,14 @@ using System.Text;
 
         var agencia = int.Parse(campos[0]);
         var numero = int.Parse(campos[1]);
-        var saldo = double.Parse(campos[2].Replace('.', ','));
+        var saldo = double.Parse(campos[2], CultureInfo.InvariantCulture);
         var titular = campos[3];
 
         var titularDaConta = new Cliente();
         titularDaConta.Nome = titular;
 
         var conta = new ContaCorrente(agencia, numero);
+        conta.Titular = titularDaConta;
         conta.Depositar(saldo);
 
         return conta;
