@@ -21,7 +21,7 @@ using System.Text;
                 var linha = leitor.ReadLine();
                 var contaCorrente = ConverterStringParaContaCorrente(linha);
 
-                var msg = $"Titular: {contaCorrente.Titular.Nome}, Agência: {contaCorrente.Agencia}, Número: {contaCorrente.Numero}, Saldo: {contaCorrente.Saldo}";
+                var msg = $"Titular: {contaCorrente.Titular.Nome}, Agência: {contaCorrente.Agencia}, Número: {contaCorrente.Numero}, Saldo: $ {contaCorrente.Saldo}";
                 Console.WriteLine(msg);
 
             }
