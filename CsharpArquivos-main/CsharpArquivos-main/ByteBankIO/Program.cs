@@ -2,6 +2,7 @@
 {
     static void Main(string[] args)
     {
-        CriandoArquivo();
+        CriarArquivoComWriter();
+        //CriandoArquivo();
     }
 }
