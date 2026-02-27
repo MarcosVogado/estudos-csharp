@@ -2,7 +2,7 @@
 {
     static void Main(string[] args)
     {
-        TesteEscrita();
+        //TesteEscrita();
         //CriarArquivoComWriter();
         //CriandoArquivo();
     }
