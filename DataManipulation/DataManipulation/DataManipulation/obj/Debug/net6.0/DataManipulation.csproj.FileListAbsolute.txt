@@ -1,0 +1,15 @@
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\bin\Debug\net6.0\DataManipulation.exe
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\bin\Debug\net6.0\DataManipulation.deps.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\bin\Debug\net6.0\DataManipulation.runtimeconfig.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\bin\Debug\net6.0\DataManipulation.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\bin\Debug\net6.0\DataManipulation.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.sourcelink.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\refint\DataManipulation.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\DataManipulation.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\DataManipulation\DataManipulation\DataManipulation\obj\Debug\net6.0\ref\DataManipulation.dll
