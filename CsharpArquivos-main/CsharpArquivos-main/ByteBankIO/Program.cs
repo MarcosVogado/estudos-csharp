@@ -5,7 +5,10 @@
         //TesteEscrita();
         //CriarArquivoComWriter();
         //CriandoArquivo();
-        NaoSeiOqPorDeNome();
+        //NaoSeiOqPorDeNome();
+        //EscritaBinaria();
+        LeituraBinaria();
+
 
         Console.ReadLine();
     }
