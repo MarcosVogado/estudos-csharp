@@ -45,4 +45,20 @@ partial class Program
             }
         }
     }
+
+    static void NaoSeiOqPorDeNome()
+    {
+        var caminhoNovoArquivo = "TestaEscrita.txt";
+
+        using (var fluxoDoArquivo = new FileStream(caminhoNovoArquivo, FileMode.Create))
+        using (var escritor = new StreamWriter(fluxoDoArquivo))
+        {
+            escritor.WriteLine(true);
+            escritor.WriteLine(false);
+            escritor.WriteLine(9999999999999999);
+
+        }
+
+        Console.WriteLine("Arquivo criado com sucesso!");
+    }
 }

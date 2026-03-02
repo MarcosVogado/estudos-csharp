@@ -5,5 +5,8 @@
         //TesteEscrita();
         //CriarArquivoComWriter();
         //CriandoArquivo();
+        NaoSeiOqPorDeNome();
+
+        Console.ReadLine();
     }
 }
