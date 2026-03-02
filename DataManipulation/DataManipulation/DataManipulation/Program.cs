@@ -7,16 +7,34 @@ namespace DataManipulation
         static void Main(string[] args)
         {
             var diasDaSemana = new string[]
-            { 
-                "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" 
+            {
+                "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"
             };
 
-            var carrinho = new ArrayList()
+            var carrinho = new List<Produto>()
             {
                 new Produto { Titulo = "Livro", Preco = 29.90 },
                 new Produto { Titulo = "Caderno", Preco = 9.90 },
                 new Produto { Titulo = "Caneta", Preco = 4.90 }
             };
+
+            PercorrendoComForeach();
+
+            void PercorrendoComForeach()
+            {
+                foreach (var produto in carrinho)
+                {
+                    Console.WriteLine($"Produto: {produto.Titulo}");
+                }
+            }
+
+            void PercorrendoComFor()
+            {
+                for (int i = 0; i < carrinho.Count; i++)
+                {
+                    Console.WriteLine($"Produto: {carrinho[i].Titulo}");
+                }
+            }
         }
     }
 
