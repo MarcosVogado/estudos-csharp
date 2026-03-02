@@ -16,7 +16,6 @@
 
                 Console.WriteLine($"Bytes lidos: {bytesLidos}");
             }
-
         }
     }
 }
