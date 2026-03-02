@@ -7,8 +7,8 @@
         //CriandoArquivo();
         //NaoSeiOqPorDeNome();
         //EscritaBinaria();
-        LeituraBinaria();
-
+        //LeituraBinaria();
+        UsarStreamDeEntrada();
 
         Console.ReadLine();
     }
