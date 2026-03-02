@@ -11,6 +11,9 @@
             {
                 var bytesLidos = fluxoDeEntrada.Read(buffer, 0, 1024);
 
+                fs.Write(buffer, 0, bytesLidos);
+                fs.Flush();
+
                 Console.WriteLine($"Bytes lidos: {bytesLidos}");
             }
 
