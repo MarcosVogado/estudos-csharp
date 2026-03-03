@@ -20,7 +20,7 @@ namespace DataManipulation
                 Console.WriteLine(dias);
             }
 
-            PercorrendoComForeach();
+            //PercorrendoComForeach();
 
             void PercorrendoComForeach()
             {
@@ -54,24 +54,23 @@ namespace DataManipulation
         {
             "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"
         };
-
-        public string Current => throw new NotImplementedException();
+        public string Current => dias[posicao];
 
         object IEnumerator.Current => Current;
 
         public void Dispose()
         {
-            throw new NotImplementedException();
         }
 
         public bool MoveNext()
         {
             posicao++;
+            return posicao < dias.Length;
         }
 
         public void Reset()
         {
-            throw new NotImplementedException();
+            posicao = -1;
         }
     }
 
@@ -79,7 +78,12 @@ namespace DataManipulation
     {
         public IEnumerator<string> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return new DiasDaSemanaEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

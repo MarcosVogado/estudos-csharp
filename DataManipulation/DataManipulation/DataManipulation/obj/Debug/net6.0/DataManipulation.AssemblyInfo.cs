@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataManipulation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bdb8b8ae1a2e18e5302c12f24e71e5b42964eb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1afe976452a894c8a46a061064af88bf4d6ebf8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataManipulation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataManipulation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
