@@ -6,10 +6,7 @@ namespace DataManipulation
     {
         static void Main(string[] args)
         {
-            var diasDaSemana = new string[]
-            {
-                "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"
-            };
+            var diasDaSemana = new DiasDaSemana();
 
             var carrinho = new List<Produto>()
             {
@@ -17,6 +14,11 @@ namespace DataManipulation
                 new Produto { Titulo = "Caderno", Preco = 9.90 },
                 new Produto { Titulo = "Caneta", Preco = 4.90 }
             };
+
+            foreach (var dias in diasDaSemana)
+            {
+                Console.WriteLine(dias);
+            }
 
             PercorrendoComForeach();
 
@@ -43,5 +45,41 @@ namespace DataManipulation
         public string Titulo { get; set; }
         public double Preco { get; set; }
 
+    }
+
+    class DiasDaSemanaEnumerator : IEnumerator<string>
+    {
+        private int posicao = -1;
+        private string[] dias = new string[]
+        {
+            "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"
+        };
+
+        public string Current => throw new NotImplementedException();
+
+        object IEnumerator.Current => Current;
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool MoveNext()
+        {
+            posicao++;
+        }
+
+        public void Reset()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class DiasDaSemana : IEnumerable<string>
+    {
+        public IEnumerator<string> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
