@@ -15,10 +15,27 @@ namespace DataManipulation
                 new Produto { Titulo = "Caneta", Preco = 4.90 }
             };
 
-            foreach (var dias in diasDaSemana)
+            var pares = NumerosPares(20);
+            foreach (var numero in pares) Console.WriteLine(numero);
+            
+            IEnumerable<int> NumerosPares(int limite)
             {
-                Console.WriteLine(dias);
+                var lista = new List<int>();
+                for (int i = 0; i < limite; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        lista.Add(i);
+                    }
+                }
+
+                return lista;
             }
+
+            //foreach (var dias in diasDaSemana)
+            //{
+            //    Console.WriteLine(dias);
+            //}
 
             //PercorrendoComForeach();
 
@@ -78,7 +95,13 @@ namespace DataManipulation
     {
         public IEnumerator<string> GetEnumerator()
         {
-            return new DiasDaSemanaEnumerator();
+            yield return "Domingo"; 
+            yield return "Segunda-feira"; 
+            yield return "Terça-feira"; 
+            yield return "Quarta-feira"; 
+            yield return "Quinta-feira"; 
+            yield return "Sexta-feira"; 
+            yield return "Sábado";
         }
 
         IEnumerator IEnumerable.GetEnumerator()
