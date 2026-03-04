@@ -15,21 +15,34 @@ namespace DataManipulation
                 new Produto { Titulo = "Caneta", Preco = 4.90 }
             };
 
-            var pares = NumerosPares(20);
+            var pares = NumerosParesComYield(2000);
             foreach (var numero in pares) Console.WriteLine(numero);
             
-            IEnumerable<int> NumerosPares(int limite)
+            IEnumerable<int> NumerosParesSemYield(int limite)
             {
                 var lista = new List<int>();
                 for (int i = 0; i < limite; i++)
                 {
                     if (i % 2 == 0)
                     {
+                        Console.WriteLine($"Gerando número par: {i}");
                         lista.Add(i);
                     }
                 }
 
                 return lista;
+            }
+
+            IEnumerable<int> NumerosParesComYield(int limite)
+            {
+                for (int i = 0; i < limite; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        Console.WriteLine($"Gerando número par: {i}");
+                        yield return i;
+                    }
+                }
             }
 
             //foreach (var dias in diasDaSemana)
