@@ -1,0 +1,15 @@
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\bin\Debug\net6.0\PlayListProject.exe
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\bin\Debug\net6.0\PlayListProject.deps.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\bin\Debug\net6.0\PlayListProject.runtimeconfig.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\bin\Debug\net6.0\PlayListProject.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\bin\Debug\net6.0\PlayListProject.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.sourcelink.json
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\refint\PlayListProject.dll
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.pdb
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\PlayListProject.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documents\work\estudos-csharp\PlaylistProject\PlayListProject\PlayListProject\obj\Debug\net6.0\ref\PlayListProject.dll
