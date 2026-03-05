@@ -13,16 +13,28 @@ playlist.Add(musica3);
 playlist.Add(musica4);
 playlist.Add(musica5);
 
+var musicaEncontrada = playlist.ObterPeloTitulo("Hotel California");
+
+if (musicaEncontrada is not null)
+{
+    Console.WriteLine($"\nMúsica encontrada: Título: {musicaEncontrada.Titulo}, Artista: {musicaEncontrada.Artista}, Duração: {musicaEncontrada.Duracao} segundos\n");
+    playlist.Remove(musicaEncontrada);
+}
+else
+{
+    Console.WriteLine("\nMúsica não encontrada.");
+}
+
 ExibirPlaylist(playlist);
 
 void ExibirPlaylist(Playlist playlist)
-{
-    Console.WriteLine("-> Tocando playlist: " + playlist.Nome);
-    foreach(var musica in playlist)
     {
-        Console.WriteLine($"Título: {musica.Titulo}, Artista: {musica.Artista}, Duração: {musica.Duracao} segundos");
+        Console.WriteLine("-> Tocando playlist: " + playlist.Nome);
+        foreach (var musica in playlist)
+        {
+            Console.WriteLine($"Título: {musica.Titulo}, Artista: {musica.Artista}, Duração: {musica.Duracao} segundos");
+        }
     }
-}
 class Musica
 {
     public string Titulo { get; set; }
@@ -67,6 +79,12 @@ class Playlist : ICollection<Musica>
     public bool Remove(Musica item)
     {
         return lista.Remove(item);
+    }
+
+    internal Musica? ObterPeloTitulo(string titulo)
+    {
+        foreach (var musica in lista) { if (musica.Titulo.Equals(titulo)) return musica; }
+        return null;
     }
 
     IEnumerator IEnumerable.GetEnumerator()
