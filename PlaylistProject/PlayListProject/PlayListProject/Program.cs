@@ -13,19 +13,21 @@ playlist.Add(musica3);
 playlist.Add(musica4);
 playlist.Add(musica5);
 
-var musicaEncontrada = playlist.ObterPeloTitulo("Hotel California");
+//var musicaEncontrada = playlist.ObterPeloTitulo("Hotel California");
 
-if (musicaEncontrada is not null)
-{
-    Console.WriteLine($"\nMúsica encontrada: Título: {musicaEncontrada.Titulo}, Artista: {musicaEncontrada.Artista}, Duração: {musicaEncontrada.Duracao} segundos\n");
-    playlist.Remove(musicaEncontrada);
-}
-else
-{
-    Console.WriteLine("\nMúsica não encontrada.");
-}
+//if (musicaEncontrada is not null)
+//{
+//    Console.WriteLine($"\nMúsica encontrada: Título: {musicaEncontrada.Titulo}, Artista: {musicaEncontrada.Artista}, Duração: {musicaEncontrada.Duracao} segundos\n");
+//    playlist.Remove(musicaEncontrada);
+//}
+//else
+//{
+//    Console.WriteLine("\nMúsica não encontrada.");
+//}
 
 ExibirPlaylist(playlist);
+
+Console.WriteLine(playlist.ObterMusicaAleatoria().Titulo);
 
 void ExibirPlaylist(Playlist playlist)
     {
@@ -85,6 +87,13 @@ class Playlist : ICollection<Musica>
     {
         foreach (var musica in lista) { if (musica.Titulo.Equals(titulo)) return musica; }
         return null;
+    }
+
+    public Musica? ObterMusicaAleatoria()
+    {
+        var random = new Random();
+        var indiceAleatorio = random.Next(0, lista.Count - 1);
+        return lista[indiceAleatorio];
     }
 
     IEnumerator IEnumerable.GetEnumerator()
