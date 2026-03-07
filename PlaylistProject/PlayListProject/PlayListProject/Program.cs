@@ -27,7 +27,11 @@ playlist.Add(musica5);
 
 ExibirPlaylist(playlist);
 
-Console.WriteLine(playlist.ObterMusicaAleatoria().Titulo);
+var musicaAleatoria = playlist.ObterMusicaAleatoria();
+if (musicaAleatoria is not null)
+{
+    Console.WriteLine($">Musica aleatória: {musicaAleatoria.Titulo}");
+}
 
 void ExibirPlaylist(Playlist playlist)
     {
