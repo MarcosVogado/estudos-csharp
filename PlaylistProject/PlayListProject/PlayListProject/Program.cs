@@ -16,12 +16,12 @@ playlist.Add(musica5);
 
 playlist.ExibirPlaylist();
 
-playlist.OrdenarPorDuracao();
-Console.WriteLine("\n-> Playlist ordenada por duração:\n");
-playlist.ExibirPlaylist();
-playlist.OrdenarPorArtista();
-Console.WriteLine("\n-> Playlist ordenada por artista:\n");
-playlist.ExibirPlaylist();
+//playlist.OrdenarPorDuracao();
+//Console.WriteLine("\n-> Playlist ordenada por duração:\n");
+//playlist.ExibirPlaylist();
+//playlist.OrdenarPorArtista();
+//Console.WriteLine("\n-> Playlist ordenada por artista:\n");
+//playlist.ExibirPlaylist();
 
 playlist.ExibirMusicaAleatoria();
 
