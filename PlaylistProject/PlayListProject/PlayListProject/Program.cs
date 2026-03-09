@@ -13,6 +13,8 @@ playlist.Add(musica2);
 playlist.Add(musica3);
 playlist.Add(musica4);
 playlist.Add(musica5);
+playlist.Add(musica5);
+
 
 playlist.ExibirPlaylist();
 
@@ -68,6 +70,7 @@ class Musica : IComparable
 
 class Playlist : ICollection<Musica>
 {
+    private readonly HashSet<Musica> set = new();
     private readonly List<Musica> lista = new();
 
     public string Nome { get; set; } = string.Empty;
@@ -76,7 +79,10 @@ class Playlist : ICollection<Musica>
 
     public void Add(Musica musica)
     {
-        lista.Add(musica);
+        if (set.Add(musica))
+        {
+            lista.Add(musica);
+        }
     }
 
     public void Clear()
