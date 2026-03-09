@@ -26,6 +26,8 @@ playlist.Add(musica5);
 //}
 
 ExibirPlaylist(playlist);
+playlist.OrdenarPorDuracao();
+ExibirPlaylist(playlist);
 
 var musicaAleatoria = playlist.ObterMusicaAleatoria();
 if (musicaAleatoria is not null)
@@ -34,27 +36,33 @@ if (musicaAleatoria is not null)
 }
 
 void ExibirPlaylist(Playlist playlist)
+{
+    Console.WriteLine("-> Tocando playlist: " + playlist.Nome);
+    foreach (var musica in playlist)
     {
-        Console.WriteLine("-> Tocando playlist: " + playlist.Nome);
-        foreach (var musica in playlist)
-        {
-            Console.WriteLine($"Título: {musica.Titulo}, Artista: {musica.Artista}, Duração: {musica.Duracao} segundos");
-        }
+        Console.WriteLine($"Título: {musica.Titulo}, Artista: {musica.Artista}, Duração: {musica.Duracao} segundos");
     }
-class Musica
+}
+
+class Musica : IComparable
 {
     public string Titulo { get; set; }
     public string Artista { get; set; }
     public int Duracao { get; set; }
+
+    public int CompareTo(object? other)
+    {
+        if(other is null) return -1;
+        if(other is Musica outraMusica) return this.Duracao.CompareTo(outraMusica.Duracao);
+        return -1;
+    }
 }
 
 class Playlist : ICollection<Musica>
 {
     private List<Musica> lista = new List<Musica>();
     public string Nome { get; set; }
-
     public int Count => lista.Count;
-
     public bool IsReadOnly => false;
 
     public void Add(Musica musica)
@@ -98,6 +106,11 @@ class Playlist : ICollection<Musica>
         var random = new Random();
         var indiceAleatorio = random.Next(0, lista.Count - 1);
         return lista[indiceAleatorio];
+    }
+
+    public void OrdenarPorDuracao()
+    {
+        lista.Sort();
     }
 
     IEnumerator IEnumerable.GetEnumerator()
