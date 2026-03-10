@@ -75,6 +75,11 @@ class Musica : IComparable
         
         return false;
     }
+
+    public override int GetHashCode()
+    {
+        return this.Titulo.GetHashCode() ^ this.Artista.GetHashCode();
+    }
 }
 
 class Playlist : ICollection<Musica>
