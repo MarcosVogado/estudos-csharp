@@ -66,6 +66,15 @@ class Musica : IComparable
 
         throw new ArgumentException("Objeto inválido para comparação.");
     }
+
+    public override bool Equals(object? obj)
+    {
+        if(obj is null) return false;
+        if(obj is Musica outraMusica) 
+            return this.Titulo.Equals(outraMusica.Titulo) && this.Artista.Equals(outraMusica.Artista);
+        
+        return false;
+    }
 }
 
 class Playlist : ICollection<Musica>
