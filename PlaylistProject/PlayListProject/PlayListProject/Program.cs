@@ -57,6 +57,17 @@ void ExibirMaisTocadas(Playlist p1, Playlist p2)
             ranking[musica] = 1;
         }
     }
+    
+    List<KeyValuePair<Musica, int>> top = new(ranking);
+    top.Sort();
+}
+
+class PorContagem : IComparer<KeyValuePair<Musica, int>>
+{
+    public int Compare(KeyValuePair<Musica, int> x, KeyValuePair<Musica, int> y)
+    {
+        return y.Value.CompareTo(x.Value);
+    }
 }
 
 class PorArtista : IComparer<Musica>
