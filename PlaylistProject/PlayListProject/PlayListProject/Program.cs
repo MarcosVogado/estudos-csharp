@@ -5,6 +5,8 @@ Musica musica2 = new Musica { Titulo = "Imagine", Artista = "John Lennon", Durac
 Musica musica3 = new Musica { Titulo = "Stairway to Heaven", Artista = "Led Zeppelin", Duracao = 482 };
 Musica musica4 = new Musica { Titulo = "Hotel California", Artista = "Eagles", Duracao = 391 };
 Musica musica5 = new Musica { Titulo = "Smells Like Teen Spirit", Artista = "Nirvana", Duracao = 301 };
+Musica musica6 = new Musica { Titulo = "Enter Sandman", Artista = "Metallica", Duracao = 331 };
+Musica musica7 = new Musica { Titulo = "Nothing Else Matters", Artista = "Metallica", Duracao = 388 };
 
 Playlist playlist = new Playlist { Nome = "Rock Classics" };
 
@@ -14,9 +16,16 @@ playlist.Add(musica3);
 playlist.Add(musica4);
 playlist.Add(musica5);
 playlist.Add(musica5);
+playlist.Add(musica6);
+playlist.Add(musica7);
+
+Playlist metallica = new Playlist { Nome = "Metallica" };
+metallica.Add(musica6);
+metallica.Add(musica7);
 
 
 playlist.ExibirPlaylist();
+metallica.ExibirPlaylist();
 
 //playlist.OrdenarPorDuracao();
 //Console.WriteLine("\n-> Playlist ordenada por duração:\n");
@@ -26,6 +35,29 @@ playlist.ExibirPlaylist();
 //playlist.ExibirPlaylist();
 
 playlist.ExibirMusicaAleatoria();
+
+void ExibirMaisTocadas(Playlist p1, Playlist p2)
+{
+    // Musica (chave/key), Contagem/count (valor/value)
+    Dictionary<Musica, int> ranking = new();
+
+    foreach (var musica in p1)
+    {
+        ranking.Add(musica, 1);
+    }
+
+    foreach (var musica in p2)
+    {
+        if (ranking.TryGetValue(musica, out int contagem))
+        {
+            ranking[musica] = contagem++;
+        }
+        else
+        {
+            ranking[musica] = 1;
+        }
+    }
+}
 
 class PorArtista : IComparer<Musica>
 {
