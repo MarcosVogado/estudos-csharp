@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlayListProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ce79bcba382575e311c21ca230390f98a03f12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57dcf0ab90fe8c1ee68153cb1b7689ea1877519f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlayListProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlayListProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
