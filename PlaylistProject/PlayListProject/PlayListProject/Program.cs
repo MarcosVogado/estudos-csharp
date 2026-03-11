@@ -42,6 +42,22 @@ metallica.Add(musica8);
 
 //ExibirMaisTocadas(metallica, playlist);
 
+var player = new PlayerDeMusica(); 
+player.AdicionarNaFila(musica1);
+player.AdicionarNaFila(musica2);
+player.AdicionarNaFila(metallica);
+
+ExibirFila(player);
+
+void ExibirFila(PlayerDeMusica player)
+{
+    Console.WriteLine("\n-> Fila de músicas:");
+    foreach (var musica in player.ObterFila())
+    {
+        Console.WriteLine($"{musica.Titulo} - {musica.Artista}");
+    }
+}
+
 void ExibirMaisTocadas(Playlist p1, Playlist p2)
 {
     // Musica (chave/key), Contagem/count (valor/value)
@@ -247,5 +263,26 @@ class Playlist : ICollection<Musica>
 
 class PlayerDeMusica
 {
+    private List<Musica> fila = new();
 
+    public void AdicionarNaFila(Musica musica)
+    {
+        fila.Add(musica);
+    }
+
+    public void AdicionarNaFila(Playlist playlist)
+    {
+        foreach (var musica in playlist)
+        {
+            AdicionarNaFila(musica);
+        }
+    }
+
+    public IEnumerable<Musica> ObterFila()
+    {
+        foreach (var musica in fila)
+        {
+            yield return musica;
+        }   
+    }
 }
