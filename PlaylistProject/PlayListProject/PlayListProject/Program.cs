@@ -7,6 +7,7 @@ Musica musica4 = new Musica { Titulo = "Hotel California", Artista = "Eagles", D
 Musica musica5 = new Musica { Titulo = "Smells Like Teen Spirit", Artista = "Nirvana", Duracao = 301 };
 Musica musica6 = new Musica { Titulo = "Enter Sandman", Artista = "Metallica", Duracao = 331 };
 Musica musica7 = new Musica { Titulo = "Nothing Else Matters", Artista = "Metallica", Duracao = 388 };
+Musica musica8 = new Musica { Titulo = "Unforgiven II", Artista = "Metallica", Duracao = 380 };
 
 Playlist playlist = new Playlist { Nome = "Rock Classics" };
 
@@ -18,10 +19,13 @@ playlist.Add(musica5);
 playlist.Add(musica5);
 playlist.Add(musica6);
 playlist.Add(musica7);
+playlist.Add(musica8);
+
 
 Playlist metallica = new Playlist { Nome = "Metallica" };
 metallica.Add(musica6);
 metallica.Add(musica7);
+metallica.Add(musica8);
 
 
 playlist.ExibirPlaylist();
@@ -35,6 +39,8 @@ metallica.ExibirPlaylist();
 //playlist.ExibirPlaylist();
 
 playlist.ExibirMusicaAleatoria();
+
+ExibirMaisTocadas(metallica, playlist);
 
 void ExibirMaisTocadas(Playlist p1, Playlist p2)
 {
@@ -59,7 +65,16 @@ void ExibirMaisTocadas(Playlist p1, Playlist p2)
     }
     
     List<KeyValuePair<Musica, int>> top = new(ranking);
-    top.Sort();
+    top.Sort(new PorContagem());
+
+    Console.WriteLine("\n-> Top 3 Músicas mais tocadas:");
+    int contador = 0;
+    foreach (var par in top)
+    {
+        Console.WriteLine($"{contador++}. {par.Key.Titulo} - {par.Key.Artista} (Tocada {par.Value} vezes)");
+        contador++;
+        if (contador > 3) break;
+    }
 }
 
 class PorContagem : IComparer<KeyValuePair<Musica, int>>
