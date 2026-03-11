@@ -28,8 +28,8 @@ metallica.Add(musica7);
 metallica.Add(musica8);
 
 
-playlist.ExibirPlaylist();
-metallica.ExibirPlaylist();
+//playlist.ExibirPlaylist();
+//metallica.ExibirPlaylist();
 
 //playlist.OrdenarPorDuracao();
 //Console.WriteLine("\n-> Playlist ordenada por duração:\n");
@@ -38,9 +38,9 @@ metallica.ExibirPlaylist();
 //Console.WriteLine("\n-> Playlist ordenada por artista:\n");
 //playlist.ExibirPlaylist();
 
-playlist.ExibirMusicaAleatoria();
+//playlist.ExibirMusicaAleatoria();
 
-ExibirMaisTocadas(metallica, playlist);
+//ExibirMaisTocadas(metallica, playlist);
 
 void ExibirMaisTocadas(Playlist p1, Playlist p2)
 {
@@ -243,4 +243,9 @@ class Playlist : ICollection<Musica>
             Console.WriteLine("\n-> A playlist está vazia.");
         }
     }
+}
+
+class PlayerDeMusica
+{
+
 }
