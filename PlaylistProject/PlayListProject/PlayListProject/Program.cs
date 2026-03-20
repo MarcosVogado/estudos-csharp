@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 
+
 Musica musica1 = new Musica { Titulo = "Bohemian Rhapsody", Artista = "Queen", Duracao = 354 };
 Musica musica2 = new Musica { Titulo = "Imagine", Artista = "John Lennon", Duracao = 183 };
 Musica musica3 = new Musica { Titulo = "Stairway to Heaven", Artista = "Led Zeppelin", Duracao = 482 };
